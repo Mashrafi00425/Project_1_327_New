@@ -1,0 +1,13 @@
+python3 -m unittest discover -s tests -v
+test_all_items_same_transaction (test_fp_growth.TestFPGrowth.test_all_items_same_transaction) ... ok
+test_disjoint_singletons_and_no_patterns (test_fp_growth.TestFPGrowth.test_disjoint_singletons_and_no_patterns) ... ok
+test_duplicate_tokens_are_ignored (test_fp_growth.TestFPGrowth.test_duplicate_tokens_are_ignored) ... ok
+test_five_baskets_exact_patterns (test_fp_growth.TestFPGrowth.test_five_baskets_exact_patterns) ... ok
+test_fraction_and_percent_support (test_fp_growth.TestFPGrowth.test_fraction_and_percent_support) ... ok
+test_random_exhaustive_oracle (test_fp_growth.TestFPGrowth.test_random_exhaustive_oracle) ... ok
+test_repetition_metaphorphic_property (test_fp_growth.TestFPGrowth.test_repetition_metaphorphic_property) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.264s
+
+OK

@@ -1,0 +1,29 @@
+CUDA FP-GROWTH | 10-DATASET VERSION | LAB CHECKLIST
+
+1. Open terminal inside FP_Growth_CUDA_Project (contains Makefile).
+2. Check compiler/hardware:
+   nvcc --version
+   nvidia-smi       # optional, Jetson may not support it
+3. Build CPU and real CUDA:
+   make
+   make cuda
+4. Check toy input through the real CUDA kernel:
+   ./fp_growth_cuda data/toy_transactions.txt 3 --output results/toy_gpu.csv --summary results/toy_gpu.json
+   EXPECT: 8 patterns, 5 GPU histogram kernel calls, real NVIDIA GPU name.
+5. Verify exact CPU vs CUDA itemsets/support counts for ALL TEN datasets:
+   python3 scripts/verify_cuda.py --random-cases 20
+   EXPECT: 10 datasets + toy + 20 random cases PASS. No skipped datasets.
+6. Benchmark all TEN on actual GPU and same lab CPU:
+   python3 scripts/benchmark_cuda.py --repeats 3
+   EXPECT: results/cuda_benchmark_results.csv with exactly 10 data rows.
+7. Generate a printable report with actual GPU numbers inserted:
+   python3 scripts/generate_report.py
+   PDF: report/FP_Growth_CUDA_10_Dataset_Report.pdf
+8. Check dataset list in scripts/benchmark_catalog.json (four UCI-derived,
+   six clearly synthetic) and result tables. Print updated PDF, ZIP folder.
+
+If CUDA compilation fails: record the entire error and nvcc --version.
+If nvcc is not in PATH: make cuda NVCC=/usr/local/cuda/bin/nvcc
+Do not claim host-only simulation is real GPU execution.
+
+GPU numbers have NOT been measured yet. You must test in the lab.

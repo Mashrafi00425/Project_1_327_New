@@ -1,0 +1,41 @@
+dataset,filename,origin,min_support,min_support_percent,min_support_count,transactions,unique_items,frequent_itemsets,max_pattern_length,root_tree_nodes,conditional_trees_built,cpu_median_ms,cpu_peak_ram_mib,cuda_median_ms,cuda_peak_ram_mib,cuda_buffer_mib,cuda_kernels,cuda_conditional_kernels,speedup_cpu_over_cuda,gpu_device,runs,verification
+UCI Iris (3-bin),uci_iris_150.txt,UCI-derived,35%,35.0,53,150,12,2,1,4,1,0.177,1.807,,,,,,,,2,CPU counts consistent
+UCI Iris (3-bin),uci_iris_150.txt,UCI-derived,30%,30.0,45,150,12,14,2,60,11,0.2055,1.826,,,,,,,,2,CPU counts consistent
+UCI Iris (3-bin),uci_iris_150.txt,UCI-derived,25%,25.0,38,150,12,23,3,60,14,0.212,1.828,,,,,,,,2,CPU counts consistent
+UCI Iris (3-bin),uci_iris_150.txt,UCI-derived,20%,20.0,30,150,12,26,3,60,15,0.292,1.824,,,,,,,,2,CPU counts consistent
+UCI Wine (median-bin),uci_wine_178.txt,UCI-derived,50%,50.0,89,178,26,20,1,906,19,0.6865,2.055,,,,,,,,2,CPU counts consistent
+UCI Wine (median-bin),uci_wine_178.txt,UCI-derived,45%,45.0,81,178,26,28,2,1279,25,4.598,2.156,,,,,,,,2,CPU counts consistent
+UCI Wine (median-bin),uci_wine_178.txt,UCI-derived,40%,40.0,72,178,26,31,2,1279,26,0.9095,2.156,,,,,,,,2,CPU counts consistent
+UCI Wine (median-bin),uci_wine_178.txt,UCI-derived,30%,30.0,54,178,26,153,4,1279,102,1.403,2.174,,,,,,,,2,CPU counts consistent
+UCI WDBC (median-bin),uci_wdbc_569.txt,UCI-derived,50%,50.0,285,569,60,30,1,4829,29,4.35,3.191,,,,,,,,2,CPU counts consistent
+UCI WDBC (median-bin),uci_wdbc_569.txt,UCI-derived,45%,45.0,257,569,60,176,6,12423,109,12.2605,4.979,,,,,,,,2,CPU counts consistent
+UCI WDBC (median-bin),uci_wdbc_569.txt,UCI-derived,40%,40.0,228,569,60,283,6,12423,165,10.4925,5.0,,,,,,,,2,CPU counts consistent
+UCI WDBC (median-bin),uci_wdbc_569.txt,UCI-derived,35%,35.0,200,569,60,1684,9,12423,893,14.5095,5.066,,,,,,,,2,CPU counts consistent
+UCI Digits (nonzero),uci_digits_1797.txt,UCI-derived,90%,90.0,1618,1797,61,62,5,84,31,5.6475,2.543,,,,,,,,2,CPU counts consistent
+UCI Digits (nonzero),uci_digits_1797.txt,UCI-derived,85%,85.0,1528,1797,61,196,6,163,100,5.3985,2.568,,,,,,,,2,CPU counts consistent
+UCI Digits (nonzero),uci_digits_1797.txt,UCI-derived,80%,80.0,1438,1797,61,481,7,1205,244,6.3825,2.816,,,,,,,,2,CPU counts consistent
+UCI Digits (nonzero),uci_digits_1797.txt,UCI-derived,75%,75.0,1348,1797,61,1228,8,4045,623,10.665,3.559,,,,,,,,2,CPU counts consistent
+Synthetic grocery,synthetic_grocery_3000.txt,Synthetic,20%,20.0,600,3000,42,17,3,2017,13,5.3535,2.73,,,,,,,,2,CPU counts consistent
+Synthetic grocery,synthetic_grocery_3000.txt,Synthetic,15%,15.0,450,3000,42,18,3,2412,14,5.1795,2.818,,,,,,,,2,CPU counts consistent
+Synthetic grocery,synthetic_grocery_3000.txt,Synthetic,12%,12.0,360,3000,42,77,3,14046,63,14.765,5.418,,,,,,,,2,CPU counts consistent
+Synthetic grocery,synthetic_grocery_3000.txt,Synthetic,10%,10.0,300,3000,42,143,4,14046,113,13.972,5.555,,,,,,,,2,CPU counts consistent
+Synthetic correlated bundles,synthetic_bundles_6000.txt,Synthetic,20%,20.0,1200,6000,60,11,1,717,10,7.991,2.875,,,,,,,,2,CPU counts consistent
+Synthetic correlated bundles,synthetic_bundles_6000.txt,Synthetic,17%,17.0,1020,6000,60,20,1,6704,19,11.557,4.125,,,,,,,,2,CPU counts consistent
+Synthetic correlated bundles,synthetic_bundles_6000.txt,Synthetic,15%,15.0,900,6000,60,58,1,41893,57,35.21,12.549,,,,,,,,2,CPU counts consistent
+Synthetic correlated bundles,synthetic_bundles_6000.txt,Synthetic,12%,12.0,720,6000,60,60,1,43674,59,27.7165,12.957,,,,,,,,2,CPU counts consistent
+Synthetic sparse clickstream,synthetic_sparse_12000.txt,Synthetic,4%,4.0,480,12000,300,15,1,442,14,7.6555,3.24,,,,,,,,2,CPU counts consistent
+Synthetic sparse clickstream,synthetic_sparse_12000.txt,Synthetic,3%,3.0,360,12000,300,22,1,1044,21,7.5155,3.363,,,,,,,,2,CPU counts consistent
+Synthetic sparse clickstream,synthetic_sparse_12000.txt,Synthetic,2%,2.0,240,12000,300,46,1,4108,45,10.035,3.992,,,,,,,,2,CPU counts consistent
+Synthetic sparse clickstream,synthetic_sparse_12000.txt,Synthetic,1.5%,1.5,180,12000,300,71,1,7683,70,11.672,4.615,,,,,,,,2,CPU counts consistent
+Synthetic dense sensors,synthetic_dense_sensors_8000.txt,Synthetic,45%,45.0,3600,8000,32,32,1,73378,31,69.5435,21.066,,,,,,,,2,CPU counts consistent
+Synthetic dense sensors,synthetic_dense_sensors_8000.txt,Synthetic,40%,40.0,3200,8000,32,32,1,73378,31,71.412,21.061,,,,,,,,2,CPU counts consistent
+Synthetic dense sensors,synthetic_dense_sensors_8000.txt,Synthetic,36%,36.0,2880,8000,32,32,1,73378,31,59.8995,21.062,,,,,,,,2,CPU counts consistent
+Synthetic dense sensors,synthetic_dense_sensors_8000.txt,Synthetic,30%,30.0,2400,8000,32,32,1,73378,31,59.924,21.062,,,,,,,,2,CPU counts consistent
+Synthetic long-tail catalog,synthetic_longtail_20000.txt,Synthetic,10%,10.0,2000,20000,150,30,3,5628,20,25.6775,5.898,,,,,,,,2,CPU counts consistent
+Synthetic long-tail catalog,synthetic_longtail_20000.txt,Synthetic,7.5%,7.5,1500,20000,150,48,3,12696,33,29.5365,7.27,,,,,,,,2,CPU counts consistent
+Synthetic long-tail catalog,synthetic_longtail_20000.txt,Synthetic,5%,5.0,1000,20000,150,92,3,25794,63,36.5145,9.896,,,,,,,,2,CPU counts consistent
+Synthetic long-tail catalog,synthetic_longtail_20000.txt,Synthetic,4%,4.0,800,20000,150,127,3,33470,87,38.0865,11.523,,,,,,,,2,CPU counts consistent
+Synthetic retail 50k,synthetic_retail_50000.txt,Synthetic,10%,10.0,5000,50000,120,29,2,34513,24,86.095,16.854,,,,,,,,2,CPU counts consistent
+Synthetic retail 50k,synthetic_retail_50000.txt,Synthetic,7.5%,7.5,3750,50000,120,50,2,78362,40,117.807,25.979,,,,,,,,2,CPU counts consistent
+Synthetic retail 50k,synthetic_retail_50000.txt,Synthetic,5%,5.0,2500,50000,120,108,2,157498,90,170.175,44.105,,,,,,,,2,CPU counts consistent
+Synthetic retail 50k,synthetic_retail_50000.txt,Synthetic,4%,4.0,2000,50000,120,164,3,205984,139,297.787,55.926,,,,,,,,2,CPU counts consistent

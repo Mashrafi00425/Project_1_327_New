@@ -1,0 +1,11 @@
+dataset,file,transactions,unique_items,support,support_count,patterns,max_length,root_tree_nodes,runtime_median_s,runtime_min_s,runtime_max_s,peak_rss_median_mib,peak_rss_max_mib
+UCI Iris (3-bin),uci_iris_150.txt,150,12,25%,38,23,3,60,0.000275,0.000228,0.000361,1.828,1.828
+UCI Wine (median-bin),uci_wine_178.txt,178,26,40%,72,31,2,1279,0.000919,0.000839,0.000997,2.156,2.16
+UCI WDBC (median-bin),uci_wdbc_569.txt,569,60,40%,228,283,6,12423,0.01035,0.009767,0.010634,4.992,5.0
+UCI Digits (nonzero),uci_digits_1797.txt,1797,61,80%,1438,481,7,1205,0.00768,0.006822,0.007762,2.82,2.824
+Synthetic grocery,synthetic_grocery_3000.txt,3000,42,12%,360,77,3,14046,0.015021,0.01194,0.016052,5.418,5.418
+Synthetic correlated bundles,synthetic_bundles_6000.txt,6000,60,15%,900,58,1,41893,0.029943,0.029211,0.030273,12.551,12.551
+Synthetic sparse clickstream,synthetic_sparse_12000.txt,12000,300,2%,240,46,1,4108,0.009533,0.00895,0.010105,3.992,3.992
+Synthetic dense sensors,synthetic_dense_sensors_8000.txt,8000,32,36%,2880,32,1,73378,0.070906,0.066556,0.072347,21.062,21.062
+Synthetic long-tail catalog,synthetic_longtail_20000.txt,20000,150,5%,1000,92,3,25794,0.039384,0.03575,0.041501,9.898,9.902
+Synthetic retail 50k,synthetic_retail_50000.txt,50000,120,5%,2500,108,2,157498,0.225885,0.185058,0.243594,44.113,44.117

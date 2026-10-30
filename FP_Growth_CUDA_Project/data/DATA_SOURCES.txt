@@ -1,0 +1,3 @@
+This 10-dataset release is documented in TEN_DATASET_SOURCES.md and scripts/benchmark_catalog.json.
+Four datasets are UCI-origin via scikit-learn; six are seeded synthetic.
+The additional toy_transactions.txt is for correctness only, not one of ten benchmarks.

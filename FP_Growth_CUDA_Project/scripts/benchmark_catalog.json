@@ -1,0 +1,122 @@
+[
+  {
+    "id": "uci_iris",
+    "label": "UCI Iris (3-bin)",
+    "filename": "uci_iris_150.txt",
+    "support": "25%",
+    "source": "UCI-derived (scikit-learn load_iris)",
+    "notes": "150 samples; four continuous features quantile-discretized into three equal-frequency categories; target omitted",
+    "transactions": 150,
+    "min_items_per_row": 4,
+    "max_items_per_row": 4,
+    "sha256": "0ac3d47cc6d3b148e686ffdf2d0b4dfbc59708e17b1e708f2de3a76e63bb4870"
+  },
+  {
+    "id": "uci_wine",
+    "label": "UCI Wine (median-bin)",
+    "filename": "uci_wine_178.txt",
+    "support": "40%",
+    "source": "UCI-derived (scikit-learn load_wine)",
+    "notes": "178 samples; 13 real-valued features median-binarized; target omitted",
+    "transactions": 178,
+    "min_items_per_row": 13,
+    "max_items_per_row": 13,
+    "sha256": "63ceb87b030e3ffd6701e8e485ef6c3bab002d75594611fcb36607073165077f"
+  },
+  {
+    "id": "uci_wdbc",
+    "label": "UCI WDBC (median-bin)",
+    "filename": "uci_wdbc_569.txt",
+    "support": "40%",
+    "source": "UCI-derived (scikit-learn load_breast_cancer)",
+    "notes": "569 samples; 30 features median-binarized; target omitted",
+    "transactions": 569,
+    "min_items_per_row": 30,
+    "max_items_per_row": 30,
+    "sha256": "efac0a752c122524e9957ac051e893a5476a6aff7bfc3e8dd96a740fb208f0a4"
+  },
+  {
+    "id": "uci_digits",
+    "label": "UCI Digits (nonzero)",
+    "filename": "uci_digits_1797.txt",
+    "support": "80%",
+    "source": "UCI-origin handwritten digits test set (scikit-learn load_digits)",
+    "notes": "1797 samples; nonzero pixels become basket items; digit target omitted",
+    "transactions": 1797,
+    "min_items_per_row": 16,
+    "max_items_per_row": 42,
+    "sha256": "8332498fa12d4149d14f852eb4798ae49364d30172f56038bcdeadac944f7058"
+  },
+  {
+    "id": "syn_grocery",
+    "label": "Synthetic grocery",
+    "filename": "synthetic_grocery_3000.txt",
+    "support": "12%",
+    "source": "Synthetic (seed 20261029 + 101)",
+    "notes": "3000 grocery baskets with repeated common staple items and occasional thematic group",
+    "transactions": 3000,
+    "min_items_per_row": 4,
+    "max_items_per_row": 15,
+    "sha256": "61b78f68f0485f8a324768e7fe6f20472a7dda199043685cd088cdad7a44fafc"
+  },
+  {
+    "id": "syn_bundles",
+    "label": "Synthetic correlated bundles",
+    "filename": "synthetic_bundles_6000.txt",
+    "support": "15%",
+    "source": "Synthetic (seed 20261029 + 202)",
+    "notes": "6000 baskets with planted clusters and independent background items",
+    "transactions": 6000,
+    "min_items_per_row": 6,
+    "max_items_per_row": 16,
+    "sha256": "dbb7b2939700fa8b155d4f0112ace0d40b37e993c1999b530e222c27526df7ce"
+  },
+  {
+    "id": "syn_sparse",
+    "label": "Synthetic sparse clickstream",
+    "filename": "synthetic_sparse_12000.txt",
+    "support": "2%",
+    "source": "Synthetic (seed 20261029 + 303)",
+    "notes": "12000 baskets with 2-6 selected items from a 300-item long-tail vocabulary",
+    "transactions": 12000,
+    "min_items_per_row": 1,
+    "max_items_per_row": 6,
+    "sha256": "e5ba8e61957e550573c669ecb83feb743e2e3ff8e0634378e19f67a5a9007394"
+  },
+  {
+    "id": "syn_iot",
+    "label": "Synthetic dense sensors",
+    "filename": "synthetic_dense_sensors_8000.txt",
+    "support": "36%",
+    "source": "Synthetic (seed 20261029 + 404)",
+    "notes": "8000 simulated dense sensor-state baskets with 32 binary items",
+    "transactions": 8000,
+    "min_items_per_row": 2,
+    "max_items_per_row": 28,
+    "sha256": "14db144d977d4bae842c5a6b6579491515d78fd3d95d05c66e53b1964e957b65"
+  },
+  {
+    "id": "syn_longtail",
+    "label": "Synthetic long-tail catalog",
+    "filename": "synthetic_longtail_20000.txt",
+    "support": "5%",
+    "source": "Synthetic (seed 20261029 + 505)",
+    "notes": "20000 baskets with highly skewed frequency distribution over 150 catalog entries",
+    "transactions": 20000,
+    "min_items_per_row": 2,
+    "max_items_per_row": 12,
+    "sha256": "369b1c592f0011e678bc475af3e04d1f2aed9ddb8f74b4dd66674837cfbf839a"
+  },
+  {
+    "id": "syn_retail",
+    "label": "Synthetic retail 50k",
+    "filename": "synthetic_retail_50000.txt",
+    "support": "5%",
+    "source": "Synthetic (seed 3582026)",
+    "notes": "50000 reproducible skewed retail baskets; same set as the previous release",
+    "transactions": 50000,
+    "min_items_per_row": 3,
+    "max_items_per_row": 13,
+    "sha256": "86c75956f4b32296eb658bf20d2360644d3cf421a5d7989575487c5b17250cd0"
+  }
+]
